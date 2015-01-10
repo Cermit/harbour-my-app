@@ -5,7 +5,7 @@ Summary: write a short summary
 Group: Qt/Qt
 URL: http://your-project_url
 License: GPLv3
-Source0: harbour-my-app-0.1.tar.xz
+Source0: harbour-my-app.tar.xz
 BuildArch: noarch
 Requires: libsailfishapp-launcher
 Requires: python3-base
@@ -16,7 +16,7 @@ Requires: sailfishsilica-qt5
 the long description
 
 %prep
-%setup -q
+%setup -n harbour-my-app
 
 %install
 rm -rf %{buildroot}
